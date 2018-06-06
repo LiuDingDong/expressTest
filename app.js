@@ -3,7 +3,7 @@ const app = express()
 
 app.get('/', function (req, res) {
   
-  res.send("你好，译译心 \n hello,liu")
+  res.send("你好，译译心 \n hello,liu \n hello yunyun")
 })
 
 app.listen(3000, function () {
